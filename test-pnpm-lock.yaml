@@ -1,11 +1,15 @@
-lockfileVersion: 5.4
+lockfileVersion: 5.3
 
 specifiers:
+  '@apidevtools/json-schema-ref-parser': ^9.0.9
+  '@azure-tools/openapi': ^3.3.0
+  '@azure-tools/openapi-tools-common': ^1.2.2
+  '@azure-tools/sdk-generation-lib': ^1.0.4
   '@azure-tools/uri': 3.1.1
   '@azure/abort-controller': ^1.0.4
   '@azure/arm-resources': ~4.2.2
   '@azure/avocado': 0.8.11
-  '@azure/event-hubs': ~5.5.2
+  '@azure/event-hubs': ~5.5.1
   '@azure/eventhubs-checkpointstore-blob': ~1.0.1
   '@azure/identity': ~2.0.4
   '@azure/keyvault-secrets': 4.4.0
