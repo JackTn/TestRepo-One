@@ -1,4 +1,4 @@
-lockfileVersion: 5.4
+lockfileVersion: 5.1
 
 specifiers:
   '@azure-tools/uri': 3.1.1
@@ -32,21 +32,6 @@ specifiers:
   '@octokit/rest': 18.0.3
   '@octokit/types': ^5.4.0
   '@octokit/webhooks': ^5.3.3
-  '@rush-temp/azure-api-validation': file:./projects/azure-api-validation.tgz
-  '@rush-temp/azure-js-dev-tools': file:./projects/azure-js-dev-tools.tgz
-  '@rush-temp/azure-rest-api-specs-pipeline': file:./projects/azure-rest-api-specs-pipeline.tgz
-  '@rush-temp/azure-sdk-generation': file:./projects/azure-sdk-generation.tgz
-  '@rush-temp/azure-swagger-validation': file:./projects/azure-swagger-validation.tgz
-  '@rush-temp/build-toolchain': file:./projects/build-toolchain.tgz
-  '@rush-temp/openapi-kebab': file:./projects/openapi-kebab.tgz
-  '@rush-temp/openapi-sdk-automation': file:./projects/openapi-sdk-automation.tgz
-  '@rush-temp/openapi-teams-bot': file:./projects/openapi-teams-bot.tgz
-  '@rush-temp/publish-pipeline-result': file:./projects/publish-pipeline-result.tgz
-  '@rush-temp/rest-api-specs-scripts': file:./projects/rest-api-specs-scripts.tgz
-  '@rush-temp/swagger-validation-common': file:./projects/swagger-validation-common.tgz
-  '@rush-temp/test-common': file:./projects/test-common.tgz
-  '@rush-temp/test-unified-pipeline': file:./projects/test-unified-pipeline.tgz
-  '@rushstack/eslint-config': ^2.6.2
   '@sendgrid/mail': ^6.4.0
   '@testdeck/mocha': ~0.2.0
   '@ts-common/async-iterator': ^1.1.0
