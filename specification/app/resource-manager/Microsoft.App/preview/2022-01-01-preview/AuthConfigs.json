@@ -15,55 +15,6 @@
     "application/json"
   ],
   "paths": {
-    "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.App/containerApps/{containerAppName}/authConfigs": {
-      "get": {
-        "tags": [
-          "ContainerAppsAuthConfigs"
-        ],
-        "summary": "Get the Container App AuthConfigs in a given resource group.",
-        "operationId": "ContainerAppsAuthConfigs_ListByContainerApp",
-        "parameters": [
-          {
-            "$ref": "../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter"
-          },
-          {
-            "$ref": "../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
-          },
-          {
-            "name": "containerAppName",
-            "in": "path",
-            "description": "Name of the Container App.",
-            "required": true,
-            "type": "string"
-          },
-          {
-            "$ref": "../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter"
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "schema": {
-              "$ref": "#/definitions/AuthConfigCollection"
-            }
-          },
-          "default": {
-            "description": "Common error response.",
-            "schema": {
-              "$ref": "./CommonDefinitions.json#/definitions/DefaultErrorResponse"
-            }
-          }
-        },
-        "x-ms-examples": {
-          "List Auth Configs by Container Apps": {
-            "$ref": "./examples/AuthConfigs_ListByContainer.json"
-          }
-        },
-        "x-ms-pageable": {
-          "nextLinkName": "nextLink"
-        }
-      }
-    },
     "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.App/containerApps/{containerAppName}/authConfigs/{name}": {
       "get": {
         "tags": [
